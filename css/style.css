@@ -1556,6 +1556,33 @@ a.fa:focus{
   height: 100vh;
 }
 
+.masthead-entry-2 {
+  position: relative;
+  background-image: url(../img/bg/masthead3.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-entry-2:after{
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg/masthead3.jpg);
+}
+
+.masthead-entry-2 .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 1%;
+  padding: 200px 0 120px;
+  height: 100vh;
+}
+
+
 .entry-line{
   position: absolute;
   z-index: 1;
@@ -1586,6 +1613,17 @@ a.fa:focus{
   border-bottom: 10px solid #35373E;
 }
 
+.masthead-entry-2 h1{
+  font-size: 60px;
+  text-transform: none;
+  margin-bottom: 55px;
+}
+
+.masthead-entry-2 h1 .underline{
+  padding-bottom: 10px;
+  border-bottom: 10px solid #35373E;
+}
+
 .page-subtitle{
   font-size: 24px;
   font-weight: 400;
@@ -1607,6 +1645,9 @@ a.fa:focus{
   margin-top: 45px;
 }
 
+.masthead-entry-2 .inline-buttons{
+  margin-top: 45px;
+}
 
 /* 4.4 Slideshow */
 
@@ -4519,6 +4560,10 @@ border-color: #35373E;
 
 
   .masthead-entry-3 h1{
+    font-size: 90px;
+    line-height: 1;
+  }
+  .masthead-entry-2 h1{
     font-size: 90px;
     line-height: 1;
   }
