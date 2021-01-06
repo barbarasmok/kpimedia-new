@@ -4641,7 +4641,10 @@ border-color: #35373E;
 
 }
 
-
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 /* 19.2 Min width 992px */
 
