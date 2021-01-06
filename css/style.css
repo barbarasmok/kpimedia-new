@@ -177,7 +177,7 @@ h1,
   font-weight: 700;
   text-transform: uppercase;
   margin:0;
-  color: #35373E;
+  color: #FFF;
 }
 
 
@@ -1024,7 +1024,7 @@ a.fa:focus{
 }
 
 .navbar-2:not(.affix) .navbar-nav > li > a{
-  color: #35373E;
+  color: #FFF;
 }
 
 .navbar-nav > li{
@@ -1538,6 +1538,14 @@ a.fa:focus{
   background-size: cover;
 }
 
+.masthead-entry-2{
+  position: relative;
+  background-image: url(../img/bg/masthead2.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .masthead-entry-3:after{
   content:'';
   position: absolute;
@@ -1548,22 +1556,6 @@ a.fa:focus{
   background-image: url(../img/bg/masthead3.jpg);
 }
 
-.masthead-entry-3 .inner{
-  display: table-cell;
-  vertical-align: middle;
-  width: 1%;
-  padding: 200px 0 120px;
-  height: 100vh;
-}
-
-.masthead-entry-2 {
-  position: relative;
-  background-image: url(../img/bg/masthead3.jpg);
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .masthead-entry-2:after{
   content:'';
   position: absolute;
@@ -1571,7 +1563,15 @@ a.fa:focus{
   top:0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/bg/masthead3.jpg);
+  background-image: url(../img/bg/masthead2.jpg);
+}
+
+.masthead-entry-3 .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 1%;
+  padding: 200px 0 120px;
+  height: 100vh;
 }
 
 .masthead-entry-2 .inner{
@@ -1581,7 +1581,6 @@ a.fa:focus{
   padding: 200px 0 120px;
   height: 100vh;
 }
-
 
 .entry-line{
   position: absolute;
@@ -1608,27 +1607,27 @@ a.fa:focus{
   margin-bottom: 55px;
 }
 
-.masthead-entry-3 h1 .underline{
-  padding-bottom: 10px;
-  border-bottom: 10px solid #35373E;
-}
-
 .masthead-entry-2 h1{
   font-size: 60px;
   text-transform: none;
   margin-bottom: 55px;
 }
 
+.masthead-entry-3 h1 .underline{
+  padding-bottom: 10px;
+  border-bottom: 10px solid #FFF;
+}
+
 .masthead-entry-2 h1 .underline{
   padding-bottom: 10px;
-  border-bottom: 10px solid #35373E;
+  border-bottom: 10px solid #FFF;
 }
 
 .page-subtitle{
   font-size: 24px;
   font-weight: 400;
   text-transform: none;
-  color: #35373E;
+  color: #FFF;
   letter-spacing: 0.3em;
   margin-bottom: 20px;
 }
@@ -4657,7 +4656,7 @@ border-color: #35373E;
 
 
   .masthead-entry-2{
-    padding: 300px 0;
+    padding: 0 0;
   }
 
 
@@ -4803,7 +4802,7 @@ border-color: #35373E;
     left:0;
     top:27px;
     width: 0;
-    border-top: 2px solid #35373E;
+    border-top: 2px solid #FFF;
     -webkit-transition: .3s ease-in-out;
          -o-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
