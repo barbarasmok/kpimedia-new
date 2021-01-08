@@ -1631,7 +1631,7 @@ a.fa:focus{
 .masthead-entry-3 h1{
   font-size: 60px;
   text-transform: none;
-  margin-bottom: 55px;
+  margin-bottom: 0;
 }
 
 .masthead-entry-2 h1{
@@ -1648,7 +1648,7 @@ a.fa:focus{
 
 
 .masthead-entry-3 h1 .underline{
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   border-bottom: none;
 }
 
@@ -4715,6 +4715,13 @@ border-color: #35373E;
     padding-bottom: 10px;
     border-bottom: 10px solid #FFF;
   }
+
+  .masthead-entry-3 h1{
+    font-size: 90px;
+    text-transform: none;
+    margin-bottom: 55px;
+  }
+  
   
 
   /* Services */
