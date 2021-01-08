@@ -4726,11 +4726,13 @@ border-color: #35373E;
 
   /* Services */
 
-
+.services {
+  margin-bottom: 80px;
+}
 
   .services .col-advantage:nth-child(2) .inner{
     padding-top: 0;
-    border-top: 0;
+    
   }
 
 
