@@ -1649,7 +1649,7 @@ a.fa:focus{
 
 .masthead-entry-3 h1 .underline{
   padding-bottom: 10px;
-  border-bottom: 10px solid #FFF;
+  border-bottom: none;
 }
 
 .masthead-entry-2 h1 .underline{
@@ -4711,6 +4711,11 @@ border-color: #35373E;
   }
 
 
+  .masthead-entry-3 h1 .underline{
+    padding-bottom: 10px;
+    border-bottom: 10px solid #FFF;
+  }
+  
 
   /* Services */
 
