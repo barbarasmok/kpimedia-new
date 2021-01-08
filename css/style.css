@@ -2919,7 +2919,7 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 .get-start{
   padding: 15% 0;
-  background: url(../img/bg/getstart.jpg) 50% no-repeat;
+  background: url(../img/bg/getstart.jpg) 100% no-repeat;
   background-size: cover;
 }
 
