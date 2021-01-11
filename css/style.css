@@ -275,6 +275,11 @@ a:focus{
 
 /* 1.4 Fields */
 
+.form-contact-tablet,
+.form-contact-desktop {
+    display: none;
+}
+
 .form-group{
   text-align: left;
   margin-bottom: 30px;
@@ -4687,6 +4692,16 @@ border-color: #35373E;
     font-size: 80px;
   }
 
+  /* form */
+    .form-contact-mobile {
+      display:none;
+  }
+
+  .form-contact-tablet {
+      display: block;
+  }
+
+
 }
 
 .responsive {
@@ -4730,11 +4745,10 @@ border-color: #35373E;
   margin-bottom: 80px;
 }
 
-  .services .col-advantage:nth-child(2) .inner{
-    padding-top: 0;
-    
-  }
-
+.services .col-advantage:nth-child(2) .inner{
+  padding-top: 0;
+  
+}
 
 
   /* Showcase */
@@ -4824,7 +4838,14 @@ border-color: #35373E;
 
 
 @media (min-width: 1200px){
+  /* form */
+  .form-contact-tablet {
+      display: none;
+  }
 
+  .form-contact-desktop {
+      display: block;
+  }
 
 
   /* Navigation */
