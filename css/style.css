@@ -1583,6 +1583,14 @@ a.fa:focus{
   background-size: cover;
 }
 
+.masthead-entry-8 {
+  position: relative;
+  background-image: url(../img/bg/masthead8.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .masthead-entry-3:after{
   content:'';
   position: absolute;
@@ -1644,6 +1652,16 @@ a.fa:focus{
   background-image: url(../img/bg/masthead2.jpg);
 }
 
+.masthead-entry-8:after{
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg/masthead8.jpg);
+}
+
 .masthead-entry-3 .inner{
   display: table-cell;
   vertical-align: middle;
@@ -1685,6 +1703,14 @@ a.fa:focus{
 }
 
 .masthead-entry-7 .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 1%;
+  padding: 200px 0 120px;
+  height: 100vh;
+}
+
+.masthead-entry-8 .inner{
   display: table-cell;
   vertical-align: middle;
   width: 1%;
@@ -1747,6 +1773,12 @@ a.fa:focus{
   margin-bottom: 55px;
 }
 
+.masthead-entry-8 h1{
+  font-size: 60px;
+  text-transform: none;
+  margin-bottom: 55px;
+}
+
 .masthead-entry-3 h1 .underline{
   padding-bottom: 0px;
   border-bottom: none;
@@ -1772,6 +1804,11 @@ a.fa:focus{
 }
 
 .masthead-entry-7 h1 .underline{
+  padding-bottom: 10px;
+  border-bottom: 10px solid #FFF;
+}
+
+.masthead-entry-8 h1 .underline{
   padding-bottom: 10px;
   border-bottom: 10px solid #FFF;
 }
@@ -1814,6 +1851,10 @@ a.fa:focus{
 }
 
 .masthead-entry-7 .inline-buttons{
+  margin-top: 45px;
+}
+
+.masthead-entry-8 .inline-buttons{
   margin-top: 45px;
 }
 
@@ -4802,6 +4843,11 @@ border-color: #35373E;
   }
 
   .masthead-entry-7 h1{
+    font-size: 90px;
+    line-height: 1;
+  }
+
+  .masthead-entry-8 h1{
     font-size: 90px;
     line-height: 1;
   }
