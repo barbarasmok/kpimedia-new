@@ -4734,6 +4734,10 @@ border-color: #35373E;
 .navbar-bottom li:last-child{
   margin-right: 0;
 }
+.websiteLink {
+  margin-left:40px;
+  font-size: 1.8rem;
+}
 
 
 
@@ -4749,7 +4753,9 @@ border-color: #35373E;
 
 @media (min-width: 768px){
 
-
+  .websiteLink {
+    margin-left:120px;
+  }
 
   /* Typography */
 
